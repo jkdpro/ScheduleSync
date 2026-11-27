@@ -28,6 +28,7 @@
 - Do not add packages or projects unless explicitly requested. If one seems necessary or beneficial, explain why and ask the developer before adding it.
 - Follow any applicable instructions in `.github/instructions`.
 - Follow existing naming conventions and patterns. Keep new code testable and loosely coupled where practical, but do not add abstractions solely for hypothetical future architecture.
+- GUI interface is Polish while coding is in English. Use English for code, comments, and documentation, and Polish for user-facing text in the GUI.
 
 ## Specification workflow
 
