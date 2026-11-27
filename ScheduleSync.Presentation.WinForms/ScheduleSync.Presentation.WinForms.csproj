@@ -78,5 +78,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ScheduleSync.Infrastructure\ScheduleSync.Infrastructure.csproj">
+      <Project>{B7F9D61E-6B3D-4D0A-9F4B-2D6C1D8A7E21}</Project>
+      <Name>ScheduleSync.Infrastructure</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
