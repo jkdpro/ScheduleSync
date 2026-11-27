@@ -35,7 +35,6 @@
 - Keep specifications that are currently being processed or are queued in `docs/specs/active/`.
 - Move completed or cancelled specifications to `docs/specs/closed/` as an archive.
 - When working on a feature, consult its specification in `active/`. Treat specifications in `closed/` as historical unless asked otherwise.
-- Workflow-specific instructions: [to be added].
 
 ## Validation
 
