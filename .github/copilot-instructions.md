@@ -29,6 +29,14 @@
 - Follow any applicable instructions in `.github/instructions`.
 - Follow existing naming conventions and patterns. Keep new code testable and loosely coupled where practical, but do not add abstractions solely for hypothetical future architecture.
 
+## Specification workflow
+
+- Store feature specifications as Markdown files under `docs/specs/`.
+- Keep specifications that are currently being processed or are queued in `docs/specs/active/`.
+- Move completed or cancelled specifications to `docs/specs/closed/` as an archive.
+- When working on a feature, consult its specification in `active/`. Treat specifications in `closed/` as historical unless asked otherwise.
+- Workflow-specific instructions: [to be added].
+
 ## Validation
 
 - Build the solution or `ScheduleSync.Presentation.WinForms` project after making code changes.
