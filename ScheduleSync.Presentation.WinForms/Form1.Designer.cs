@@ -1,4 +1,4 @@
-﻿namespace ScheduleSyncDesktop
+﻿namespace ScheduleSync.Presentation.WinForms
 {
     partial class Form1
     {
@@ -37,4 +37,5 @@
         #endregion
     }
 }
+
 

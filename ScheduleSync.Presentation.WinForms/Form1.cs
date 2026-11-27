@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace ScheduleSyncDesktop
+namespace ScheduleSync.Presentation.WinForms
 {
     public partial class Form1 : Form
     {
