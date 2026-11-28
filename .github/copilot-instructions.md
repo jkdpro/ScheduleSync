@@ -14,7 +14,7 @@
   - `ScheduleSync.Presentation.WinForms` - the Windows Forms presentation project, targeting .NET Framework 4.8.1.
   - `ScheduleSync.Infrastructure` - intended for code that does not depend on Windows Forms, including business logic, data access, and API integration.
 - During current development, use Microsoft SQL Server for persistence and Entity Framework 6.x (EF6) with the Code First approach for data access. These are current development requirements, not future possibilities.
-- Public API details will be provided later with the relevant feature requirements.
+- For Tristar API integration, consult [Tristar API resources](../docs/resources/tristar/tristar-api-resources.md) before implementing API models or calls.
 
 ## Roadmap and assumptions
 
