@@ -4,7 +4,7 @@ using System.Net.Http;
 using System.Runtime.Serialization;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using ScheduleSync.Infrastructure;
+using ScheduleSync.Infrastructure.Tristar;
 
 namespace ScheduleSync.Presentation.WinForms
 {

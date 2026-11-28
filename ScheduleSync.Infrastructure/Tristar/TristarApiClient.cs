@@ -8,7 +8,7 @@ using System.Runtime.Serialization.Json;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ScheduleSync.Infrastructure
+namespace ScheduleSync.Infrastructure.Tristar
 {
     public sealed class TristarApiClient
     {
