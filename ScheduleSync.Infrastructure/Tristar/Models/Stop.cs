@@ -1,6 +1,6 @@
 using System.Runtime.Serialization;
 
-namespace ScheduleSync.Infrastructure.Tristar
+namespace ScheduleSync.Infrastructure.Tristar.Models
 {
     [DataContract]
     public class Stop

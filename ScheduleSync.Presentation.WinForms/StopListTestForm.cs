@@ -5,6 +5,7 @@ using System.Runtime.Serialization;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using ScheduleSync.Infrastructure.Tristar;
+using ScheduleSync.Infrastructure.Tristar.Models;
 
 namespace ScheduleSync.Presentation.WinForms
 {
