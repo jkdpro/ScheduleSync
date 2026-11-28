@@ -4,7 +4,7 @@
 
 ### Primary resource - Tristar API documentation
 
-The Tristar API description has been downloaded locally to [Gdynia Tristar API documentation](./gdynia-tristar-api-description.md).
+The Tristar API description has been downloaded locally to [Gdynia Tristar API documentation](./tristar_api.pdf).
 The file comes from [Gdynia Open Data Portal](https://otwartedane.gdynia.pl/pl/dataset/dokumentacja-tristar-api) - but do not check upstream online resource for changes until specifically requested.
 API description is provided in Polish language.
 API is based on GTFS (General Transit Feed Specification) - yet there may be some differences in the implementation. The API is RESTful and uses JSON format for data exchange.
