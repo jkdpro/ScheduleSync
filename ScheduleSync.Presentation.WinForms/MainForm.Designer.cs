@@ -1,7 +1,9 @@
 ﻿namespace ScheduleSync.Presentation.WinForms
 {
-    partial class Form1
+    partial class MainForm
     {
+        private System.Windows.Forms.Button openStopsTestButton;
+
         /// <summary>
         /// Required designer variable.
         /// </summary>
@@ -29,9 +31,29 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            this.openStopsTestButton = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // openStopsTestButton
+            // 
+            this.openStopsTestButton.AutoSize = true;
+            this.openStopsTestButton.Location = new System.Drawing.Point(24, 24);
+            this.openStopsTestButton.Name = "openStopsTestButton";
+            this.openStopsTestButton.Size = new System.Drawing.Size(176, 27);
+            this.openStopsTestButton.TabIndex = 0;
+            this.openStopsTestButton.Text = "Test pobierania przystanków";
+            this.openStopsTestButton.UseVisualStyleBackColor = true;
+            this.openStopsTestButton.Click += new System.EventHandler(this.openStopsTestButton_Click);
+            // 
+            // MainForm
+            // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            this.Controls.Add(this.openStopsTestButton);
+            this.Name = "MainForm";
+            this.Text = "ScheduleSync";
+            this.ResumeLayout(false);
+            this.PerformLayout();
         }
 
         #endregion

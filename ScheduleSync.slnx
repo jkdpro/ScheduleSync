@@ -1,4 +1,4 @@
 <Solution>
-  <Project Path="ScheduleSync.Presentation.WinForms/ScheduleSync.Presentation.WinForms.csproj" Id="a4aba048-ef12-4bd5-a9cb-0a54631f3f4d" />
+  <Project Path="ScheduleSync.Presentation.WinForms/ScheduleSync.Presentation.WinForms.csproj" Id="a4aba048-ef12-4bd5-a9cb-0a54631f3f4d" DefaultStartup="true" />
   <Project Path="ScheduleSync.Infrastructure/ScheduleSync.Infrastructure.csproj" Id="b7f9d61e-6b3d-4d0a-9f4b-2d6c1d8a7e21" />
 </Solution>
